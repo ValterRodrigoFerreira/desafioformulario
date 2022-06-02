@@ -1,0 +1,81 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 396px;
+  width: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 68px;
+  margin-bottom: 28px;
+  font-size: 37px;
+  color: #8b008b;
+}
+
+.menssagemerro {
+  text-align: center;
+  color: red;
+  font-size: 15px;
+}
+
+.descricao-field {
+  margin-bottom: 5px;
+}
+
+.info-box {
+  width: 396px;
+  height: 47px;
+  padding: 12px 0px 11px 14px;
+  border: 1px solid #abb3a8;
+  box-sizing: border-box;
+  border-color: #abb3a8;
+  color: #abb3a8;
+  display: flex;
+  flex-direction: column;
+  margin-top: 9px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 396vh;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.boxwrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 396px;
+  height: 47px;
+  padding: 15px 0;
+  background: #8b008b;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-style: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+a {
+  color: rgb(0, 204, 255);
+}
